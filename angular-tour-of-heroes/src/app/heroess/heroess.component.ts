@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Hero} from './hero'
+import {Hero} from './hero';
 import { HeroService } from '../hero.service';
 
 @Component({
@@ -15,7 +15,7 @@ export class HeroessComponent implements OnInit {
 
   heroFixed: Hero = {
     id: 1,
-    name: "Windstorm"
+    name: 'Windstorm'
   };
 
   getHeroes(): void {
